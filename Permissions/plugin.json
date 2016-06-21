@@ -1,0 +1,17 @@
+{
+  "name":"Permissions",
+  "author":"Niklas Kreer",
+  "version":1,
+  "api":1,
+  "description":"Manage Permissions easily",
+  "load":true,
+  "main":"Permissions",
+  "commands":{
+    "permissions":{
+      "description":"Manage permissions",
+      "permission":"permissions.manage",
+      "usage":"permissions --help",
+      "aliases":["perms", "perm", "pm"]
+    }
+  }
+}
